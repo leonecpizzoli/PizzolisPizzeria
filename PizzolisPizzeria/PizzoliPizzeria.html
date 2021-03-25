@@ -1,0 +1,105 @@
+<!DOCTYPE html> 
+<html>
+	<head> 
+		<title>Pizzoli's Pizzeria</title>
+		<link rel="stylesheet" type="text/css" href="css/style.css">
+		<link href="https://fonts.googleapis.com/css?family=Baloo|Reenie+Beanie|Roboto:400,500,500i" rel="stylesheet">
+		<meta charset="UTF-8" />
+	</head>
+	<body>
+		<header>
+			<img src="img/pizzolis-logo.png" alt="Logo da Pizzeria Pizzoli">
+			<nav>
+			<ul>
+				<li><a href="#">Home</a></li>
+				<li><a href="#">Sabores</a></li>
+				<li><a href="#">Contato</a></li>
+			</ul>
+			</nav>
+		</header>
+		<section>
+			<ul id="vantagens">
+				<li>Qualidade</li>
+				<li>Sabor</li>
+				<li>Praticidade</li>
+				<li>Agilidade</li>
+			</ul>
+		</section>
+		<section>
+			<h2>Sabores</h2>
+			<p>Conheça os nossos <strong>8 sabores</strong> de <em>pizza</em>!</p>
+			<img src="img/sabores-pizzas.png" alt="Imagens de Pizzas da Pizzaria" id="pizza-sabores" />
+			<table> 
+				<tr>
+					<th>Sabores</th>
+					<th>Queijo e Molho</th>
+					<th>Salada</th>
+					<th>Cebola</th>
+				</tr>
+				<tr>
+					<td>Peito de Peru</td>
+					<td rowspan="8" class="texto-positivo">Sim</td>
+					<td class="texto-negativo">Não</td>
+					<td class="texto-negativo">Não</td>
+				</tr>
+				<tr>
+					<td>Camarão</td>
+					<td class="texto-positivo">Sim</td>
+					<td class="texto-negativo">Não</td>
+				</tr>
+				<tr>
+					<td>Espinafre</td>
+					<td class="texto-positivo">Sim</td>
+					<td class="texto-negativo">Não</td>
+				</tr>
+				<tr>
+					<td>Rucula</td>
+					<td class="texto-positivo">Sim</td>
+					<td class="texto-negativo">Não</td>
+				</tr>
+				<tr>
+					<td>Rucula com Bacon</td>
+					<td class="texto-positivo">Sim</td>
+					<td class="texto-negativo">Não</td>
+				</tr>
+				<tr>
+					<td>Tomate Seco</td>
+					<td class="texto-negativo">Não</td>
+					<td class="texto-negativo">Não</td>
+				</tr>
+				<tr>
+					<td>Peperoni</td>
+					<td class="texto-negativo">Não</td>
+					<td class="texto-negativo">Não</td>
+				</tr>
+				<tr>
+					<td>Bacon</td>
+					<td class="texto-negativo">Não</td>
+					<td class="texto-negativo">Não</td>
+				</tr>
+			</table>
+		</section>
+		<section>
+			<h2>Contato</h2>
+			<form action="http://arquivo.devmedia.com.br/projeto/requisicao.php" method="POST" target="_blank">
+				<label>Nome:</label>
+				<input type="text" name="nome">
+
+				<label>E-mail:</label>
+				<input type="text" name="email">
+
+				<label>Mensagem:</label>
+				<textarea name="mensagem"></textarea>
+
+				<input type="submit" value="Enviar Mensagem" />
+				
+			</form>
+		</section>
+		<footer>
+			<a href="#" id="pizzolis-logo">Hello Pizza</a>
+			
+			<p>Todos os direitos não reservados 2020!</p>
+		</footer>
+	</body>	
+
+</html>
